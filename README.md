@@ -1,5 +1,9 @@
 # Epmloyee-management-Sytem
-An employee management system created using SpringBoot JDBC and Thymeleaf
+An employee management system created using 
+- SpringBoot JDBC for Backend
+- Thymeleaf for template rendering
+- Bootstrap for styling
+- Jquery for pagination
 
 ## Run instructions:
 - To run this project, clone this repository
