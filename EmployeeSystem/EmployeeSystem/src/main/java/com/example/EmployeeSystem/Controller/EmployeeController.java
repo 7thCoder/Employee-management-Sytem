@@ -20,7 +20,7 @@ public class EmployeeController {
     @GetMapping({"/showEmployees","/","/list"})
     public ModelAndView showEmployees(){
         ModelAndView mav = new ModelAndView("List-employees");
-        List<Employee> list = eRepo.findAll();
+        Iterable<Employee> list = eRepo.findAll();
         mav.addObject("employees", list);
         return mav;
     }
